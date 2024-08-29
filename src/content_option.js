@@ -115,6 +115,14 @@ const skills = [
     {
         name: "AWS",
         value: 70,
+    },
+    {
+        name: "JUnit",
+        value: 80,
+    },
+    {
+        name: "Git",
+        value: 80,
     }
 ];
 
