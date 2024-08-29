@@ -59,7 +59,7 @@ const worktimeline = [
         where: "Railyatri",
         location: "Noida",
         link: "https://www.railyatri.in/",
-        date: "Sep,2021 - Dec,2023",
+        date: "Sep,2021 - Dec,2021",
     }
 ];
 
