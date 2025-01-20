@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import { ThemeContext } from "../../context/ThemeContext";  
 
 export const Home = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <HelmetProvider>
       <section id="home" className="home">
