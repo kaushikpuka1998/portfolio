@@ -22,6 +22,7 @@ const introdata = {
     description: "",
     dark_url: blackTheme,
     light_url: whiteTheme,
+    resume: "https://drive.google.com/file/d/1SNkkToB1r-UUPWoNIhO7IpYgLjd1I8lq/view?usp=sharing",
 };
 
 const dataabout = {

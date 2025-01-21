@@ -62,6 +62,15 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+
+                  <a href={introdata.resume} target="_blank" rel="noopener noreferrer">
+                    <div id="button_h" className="ac_btn btn">
+                      Resume
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
