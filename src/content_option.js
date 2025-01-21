@@ -12,9 +12,12 @@ const meta = {
 const introdata = {
     title: "I’m Kaushik Ghosh",
     animated: {
-        first: "Backend Engineer",
-        second: "Passionate about to develop scalable applications",
-        third: "Have a look at my work below",
+        first: "Software Engineer",
+        second: "Having 3+ years of experience",
+        third: "Passionate about to develop scalable applications",
+        fourth: "Working in Tekion",
+        fifth: "Previously worked in Coding Ninjas & Railyatri",
+        sixth: "Have a look at my work below"
     },
     description: "",
     dark_url: blackTheme,
