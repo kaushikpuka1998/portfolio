@@ -1,3 +1,8 @@
+import React, { useEffect, useState } from "react";
+import blackTheme from './images/black-background.jpg'
+import whiteTheme from './images/white-background.png'
+
+
 const logotext = "KAUSHIK";
 const meta = {
     title: "Kaushik Ghosh",
@@ -12,7 +17,8 @@ const introdata = {
         third: "Have a look at my work below",
     },
     description: "",
-    your_img_url: "https://scontent.fblr20-3.fna.fbcdn.net/v/t39.30808-6/395881393_4486237451602382_6735036780267861983_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=beKPTsOGdj4Q7kNvgG2ti4Y&_nc_ht=scontent.fblr20-3.fna&oh=00_AYBvwfpYISH7apiWkmr2r-iliRjnj4N0mWOw5lUQoKVbrQ&oe=66D68881",
+    dark_url: blackTheme,
+    light_url: whiteTheme,
 };
 
 const dataabout = {
