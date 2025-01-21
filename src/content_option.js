@@ -22,7 +22,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
+    title: "Bit about myself",
     p1: "I am a results-driven software developer with a passion for building innovative solutions and delivering high-quality applications. With a strong background in various programming languages, frameworks, and tools, " +
         "\n" +
         "\n" +

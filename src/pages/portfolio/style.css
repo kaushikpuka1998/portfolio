@@ -1,5 +1,5 @@
 .po_items_ho {
-    column-width: 15em;
+    column-width: 155em;
     -moz-column-width: 15em;
     -webkit-column-width: 15em;
     column-gap: 4rem;
@@ -23,6 +23,7 @@
 
 .po_item img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 .po_item .content {
@@ -46,9 +47,9 @@
 }
 
 .po_item .content {
-    opacity: 0;
+    opacity: 30;
     transition-delay: 1s;
-    transition: 0.3s ease;
+    transition: 0.2s ease;
     font-size: 20px;
 }
 
