@@ -3,7 +3,6 @@ import blackTheme from './images/black-background.jpg'
 import whiteTheme from './images/white-background.png'
 
 
-const value="Testing";
 const logotext = "KAUSHIK";
 const meta = {
     title: "Kaushik Ghosh",
