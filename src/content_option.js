@@ -171,7 +171,7 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/601",
-        description: "Node.js RestAPI application for AWS RDS MySQL Database\n",
+        description: "Node.js RestAPI application using AWS RDS MySQL Database\n",
             //.Implemented features like Email ID Presence, \n" +
             //"SignIN, SignUP, SignOUT, and Middleware for data insertion function",
         link: "https://github.com/kaushikpuka1998/NodeAPI",
@@ -196,7 +196,7 @@ const dataportfolio = [{
 
     {
         img: "https://picsum.photos/400/604/",
-        description: "Development of Ecommerce Android app using Kotlin MVVM Architechture concept of Mobile Selling\n",
+        description: "Development of Ecommerce Android app using Kotlin MVVM Architechture in concept of Mobile Selling\n",
            // "Commerce, Used Retrofit & OkHTTP used for API Call for API Call and Logging interceptor. Cart Service, Left Swipe Animation integrated",
         link: "https://github.com/kaushikpuka1998/Ziv",
         title: "Ziv (Online Ecommerce App)"
@@ -204,32 +204,32 @@ const dataportfolio = [{
 
     {
         img: "https://picsum.photos/400/700/",
-        description: "Development of WebApp using Ruby on Rails MVC Architechture concept of Library Management,Using ROR\n" ,
+        description: "Development of WebApp using Ruby on Rails MVC Architechture concept of Library Management,using ROR\n" ,
             //"RestAPI called through RestClient Create,Update,Delete,Read Function integrated.",
         link: "https://github.com/kaushikpuka1998/library_mng_ruby",
         title: "Library Management System",
     },
     {
         img: "https://picsum.photos/400/605/",
-        description: "Development of QRScanner-reader app using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
+        description: "Development of QRScanner-reader app using Java MVVM Architechture, Firebase & Room to store data in Online & Local",
         link: "https://github.com/kaushikpuka1998/Qrcreatorscanner",
         title: "QRScannerReader (Utility App)"
     },
     {
         img: "https://picsum.photos/400/606/",
-        description: "Online Dating App using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
+        description: "Online Dating App using Java MVVM Architechture using by Firebase & RoomDB to store data in Online & Local",
         link: "https://github.com/kaushikpuka1998/TinderClone-Java-",
         title: "Online Dating App"
     },
     {
         img: "https://picsum.photos/401/",
-        description: "Online Music App using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
+        description: "Online Music App using Java MVVM Architechture using through RoomDB",
         link: "https://github.com/kaushikpuka1998/ITune_Songs",
         title: "ITune Songs"
     },
     {
         img: "https://picsum.photos/400/550/",
-        description: "Online Rider App using Flutter MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Login SignUp to store data in Online respectively",
+        description: "Online Rider App using Flutter MVVM Architechture",
         link: "https://github.com/kaushikpuka1998/RiderApp-Flutter",
         title: "RiderApp"
     },
