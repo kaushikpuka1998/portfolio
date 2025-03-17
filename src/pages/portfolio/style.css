@@ -13,9 +13,9 @@
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
-    background: var(--secondary-color);
+    background: green;
     padding: 6px;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid green;
     transition: 0.3s ease;
     font-size: 0;
     min-height: 300px;
@@ -43,7 +43,8 @@
     width: 100%;
     transition: 0.3s ease-in-out;
     opacity: 0;
-    border: 1px solid black;
+    font-weight: bold;
+    border: 1px solid green;
 }
 
 .po_item .content {
@@ -61,21 +62,49 @@
     height: calc(100% - 30px);
     width: calc(100% - 30px);
     opacity: 1;
+    font-weight: 700;
 }
 
 .po_item:hover .content {
     opacity: 1;
     color: var(--secondary-color);
+    margin-bottom: 10px;
 }
 
 .po_item .content a {
-    background: var(--bg-color);
-    border: solid 1px var(--text-color);
+    background: green;
+    border-radius: 20px;
+    border-color: white;
     padding: 4px 8px;
     text-align: center;
     font-size: 1rem;
+    color: white;
+    width: fit-content;
+    position: relative;
 }
 
 .po_item .content a:hover {
     text-decoration: none;
+    animation: hoverAnimation 0.3s forwards;
+    color: white;
+    padding-right: 20px;
+    position: relative;
+    justify-content: space-between;
+    background-image: url('../../assets/images/arrow.png'); /* Add this line to set the arrow image */
+    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    background-position: right; /* Position the image to the right center */
+    background-size: 20px 20px; 
+    border-radius: 20px;
+    border-color: white;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        background-color: white;
+        transform: scale(2);
+    }
+    100% {
+        background-color:green;
+        transform: scale(1);
+    }
 }

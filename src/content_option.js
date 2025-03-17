@@ -155,88 +155,92 @@ const services = [{
 ];
 
 const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
-    description: "Developed a Java REST API for Books data with MySQL, with features for data insertion and login via Bearer Token.\n" +
-        "Deployed and tested on AWS Beanstalk",
+    img: "https://picsum.photos/400/",
+    description: "Developed a Java REST API for Books data with MySQL via Bearer Token.\n" ,
+        //"Deployed and tested on AWS Beanstalk",
     link: "https://github.com/kaushikpuka1998/BookShelves",
     title: "BookShelves",
 },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "Online Food Ordering Mobile App. Implemented using Facebook,Gmail,Phone\n" +
-            "Authentication,GPay and Razorpay Payment Gateway",
+        img: "https://picsum.photos/400/600/",
+        description: "Online Food Ordering Mobile App\n",
+         //Implemented using Facebook, Gmail, Phone\n" +
+           // "Authentication,GPay and Razorpay Payment Gateway",
         link: "https://github.com/kaushikpuka1998/restaurant_app",
         title: "Food Grazo",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Node.js RestAPI application for AWS RDS MySQL Database.Implemented features like Email ID Presence,\n" +
-            "SignIN, SignUP, SignOUT, and Middleware for data insertion function",
+        img: "https://picsum.photos/400/601",
+        description: "Node.js RestAPI application for AWS RDS MySQL Database\n",
+            //.Implemented features like Email ID Presence, \n" +
+            //"SignIN, SignUP, SignOUT, and Middleware for data insertion function",
         link: "https://github.com/kaushikpuka1998/NodeAPI",
         title: "NodeAPI",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "Integrated Precommit with Github to enforce code quality standards/syntax analysis, resulting in a 40% reduction in\n" +
-            "code review time and enhancing API development efficiency.",
+        img: "https://picsum.photos/400/602/",
+        description: "Integrated Precommit with Github to enforce code quality standards/syntax analysis\n",
+        // resulting in a 40% reduction in\n" +
+           // "code review time and enhancing API development efficiency.",
         link: "https://github.com/kaushikpuka1998/FlaskApp",
         title: "FlaskApp",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "It is a Covid daily tracker Android App,developed by Flutter Local Emergency service,Tele medicine providing Doctor contact Details Providation through JSON Parsing,  Total vaccinated daily update and next 7 days Vaccination Centre searching through pincode by API Calling API used Cowin,https://covid19india.org, https://www.mohfw.gov.in/ more",
+        img: "https://picsum.photos/400/603/",
+        description: "It is a Covid daily tracker Android App,developed by Flutter ",
+        //Local Emergency service, Tele medicine providing Doctor contact Details Providation through JSON Parsing, Total vaccinated daily update and next 7 days Vaccination Centre searching through pincode by API Calling API used Cowin, https://covid19india.org, https://www.mohfw.gov.in/ more",
         link: " https://github.com/kaushikpuka1998/Covigo",
         title: "Covigo (Covid Tracker App)"
     },
 
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "Development of Ecommerce Android app using Kotlin MVVM Architechture concept of Mobile Selling in\n" +
-            "Commerce, Used Retrofit & OkHTTP used for API Call for API Call and Logging interceptor. Cart Service, Left Swipe Animation integrated",
+        img: "https://picsum.photos/400/604/",
+        description: "Development of Ecommerce Android app using Kotlin MVVM Architechture concept of Mobile Selling\n",
+           // "Commerce, Used Retrofit & OkHTTP used for API Call for API Call and Logging interceptor. Cart Service, Left Swipe Animation integrated",
         link: "https://github.com/kaushikpuka1998/Ziv",
         title: "Ziv (Online Ecommerce App)"
     },
 
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "Development of WebApp using Ruby on Rails MVC Architechture concept of Library Management,Separated ROR\n" +
-            "RestAPI called through RestClient Create,Update,Delete,Read Function integrated.",
+        img: "https://picsum.photos/400/700/",
+        description: "Development of WebApp using Ruby on Rails MVC Architechture concept of Library Management,Using ROR\n" ,
+            //"RestAPI called through RestClient Create,Update,Delete,Read Function integrated.",
         link: "https://github.com/kaushikpuka1998/library_mng_ruby",
         title: "Library Management System",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "https://picsum.photos/400/605/",
         description: "Development of QRScanner-reader app using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
         link: "https://github.com/kaushikpuka1998/Qrcreatorscanner",
         title: "QRScannerReader (Utility App)"
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://picsum.photos/400/606/",
         description: "Online Dating App using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
         link: "https://github.com/kaushikpuka1998/TinderClone-Java-",
         title: "Online Dating App"
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://picsum.photos/401/",
         description: "Online Music App using Java MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Room to store data in Online & Local respectively",
         link: "https://github.com/kaushikpuka1998/ITune_Songs",
         title: "ITune Songs"
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
+        img: "https://picsum.photos/400/550/",
         description: "Online Rider App using Flutter MVVM Architechture, Card View, Bottom-sheet navigation, Firebase & Login SignUp to store data in Online respectively",
         link: "https://github.com/kaushikpuka1998/RiderApp-Flutter",
         title: "RiderApp"
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://picsum.photos/402/",
         description: "WebSocket Application using Ruby on Rails, ActionCables ",
         link: "https://github.com/kaushikpuka1998/Websocket-Testing-rails",
         title: "WebsocketRailsApp"
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://picsum.photos/400/701/",
         description: "Ticket Booking System using Java Spring Boot, JPA, Hibernate, MySQL, JWT, Swagger, Lombok, Junit, Mockito",
         link: "https://github.com/kaushikpuka1998/Ticketbooking",
         title: "Ticket Booking System"
