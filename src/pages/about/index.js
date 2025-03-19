@@ -31,19 +31,19 @@ export const About = () => {
           </Col>
           <Row lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.p1}</p>
+              <p dangerouslySetInnerHTML={{ __html: dataabout.p1 }}></p>
             </div>
 
             <div>
-              <p>{dataabout.p2}</p>
+            <p dangerouslySetInnerHTML={{ __html: dataabout.p2 }}></p>
             </div>
 
             <div>
-              <p>{dataabout.p3}</p>
+            <p dangerouslySetInnerHTML={{ __html: dataabout.p3 }}></p>
             </div>
 
             <div>
-              <p>{dataabout.p4}</p>
+            <p dangerouslySetInnerHTML={{ __html: dataabout.p4 }}></p>
             </div>
           </Row>
         </Row>
