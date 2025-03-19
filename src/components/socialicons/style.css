@@ -1,5 +1,5 @@
 .stick_follow_icon {
-    top: 50%;
+    top: 45%;
     left: 30px;
     width: 20px;
     height: 200px;
@@ -28,10 +28,13 @@
     color: var(--text-color);
     font-size: 12px;
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 2.2;
+    font-size: 12px;
     white-space: nowrap;
     position: relative;
+    margin-top: 20px;
     transform: rotate( -90deg);
+    
 }
 
 .stick_follow_icon ul li {
@@ -48,6 +51,7 @@
     width: 40px;
     height: 1px;
     content: "";
+    font-size: 25px;
     display: block;
     position: absolute;
     background-color: var(--text-color);
