@@ -260,6 +260,9 @@ const socialprofils = {
     facebook: "https://www.facebook.com/kaushik.ghosh.522/",
     linkedin: "https://www.linkedin.com/in/kaushik-ghosh-886974109/",
     medium: "https://kgstrivers.medium.com/",
+    leetcode: "https://www.leetcode.com/kgstrivers",
+    codechef:"https://www.codechef.com/users/kaushik_199832",
+    youtube: "https://www.youtube.com/@kgstrivers6445"
 };
 export {
     meta,
