@@ -30,7 +30,7 @@ export const Portfolio = () => {
                       <span className="description">{data.description}</span>
                     </row>
 
-                    <a href={data.link}>View project</a>
+                    <a target="_blank" href={data.link}>View project</a>
                   </div>
                 </div>
             );

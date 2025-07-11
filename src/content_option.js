@@ -32,7 +32,7 @@ const dataabout = {
         "\n" +
         "I have gained valuable experience working on diverse projects throughout my career.\n" +
         "\n" +
-        "Currently, I am serving as a <strong>Software Engineer - 2 at Tekion</strong> in Bangalore, India. In this role, My expertise lies in Java for backend development",
+        "Currently, I am serving as a <strong>Software Engineer - 2 at Guidewire</strong> in Bangalore, India. In this role, My expertise lies in Java for backend development",
     p2:    "Prior to my current position, I worked as a  <strong>Software Engineer at Coding-Ninjas</strong> in Gurugram & <strong>Railyatri</strong> in Noida, India. Here, I focused on <strong>backend development using Ruby on Rails and Java</strong>. I actively participated in <strong>Test-Driven Development (TDD)</strong> and made significant improvements to the PNR status API. Additionally, I developed a new IRCTC UserID Page creation page and optimised the API calls on the Passenger Page to enhance the overall customer booking experience.\n" +
         "\n" +
         "I hold a <strong>Bachelor of Technology degree</strong> in <strong>Computer Science from Coochbehar Government Engineering College</strong> in Coochbehar, India, where I achieved a commendable <strong>CGPA of 8.43/10</strong>. My education provided me with a solid foundation in computer science principles and honed my problem-solving skills.\n" ,
@@ -42,12 +42,19 @@ const dataabout = {
        p4:  "My skill set encompasses a wide range of languages, including <strong>C++, Java, SQL, Ruby, HTML, and Typescript</strong>. I am proficient in frameworks such as <strong>Ruby on Rails, SpringBoot, Angular, JUnit, SonarQube, and ElasticSearch </strong>. Additionally, I am experienced in using tools such as Android, Jenkins",
 };
 const worktimeline = [
+     {
+        jobtitle: "Software Engineer - 2",
+        where: "Guidewire",
+        link: "https://www.guidewire.com/",
+        location: "Bangalore",
+        date: "Mar,2025 - Present",
+    },
     {
-    jobtitle: "Software Engineer - 2",
-    where: "Tekion",
+        jobtitle: "Software Engineer - 2",
+        where: "Tekion",
         link: "https://www.tekion.com/",
         location: "Bangalore",
-    date: "Nov,2023 - Present",
+        date: "Nov,2023 - Oct,2024",
     },
     {
         jobtitle: "Software Developer Engineer - 1",
