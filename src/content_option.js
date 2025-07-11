@@ -13,10 +13,10 @@ const introdata = {
     title: "I’m Kaushik Ghosh",
     animated: {
         first: "Software Engineer",
-        second: "Having 3+ years of experience",
+        second: "Having almost 4 years of experience",
         third: "Passionate about to develop scalable applications",
-        fourth: "Working in Tekion",
-        fifth: "Previously worked in Coding Ninjas & Railyatri",
+        fourth: "Working in Guidewire",
+        fifth: "Previously worked in Tekion,Coding Ninjas & Railyatri",
         sixth: "Have a look at my work below"
     },
     description: "",
