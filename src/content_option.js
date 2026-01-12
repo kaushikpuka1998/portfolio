@@ -13,7 +13,7 @@ const introdata = {
     title: "I’m Kaushik Ghosh",
     animated: {
         first: "Software Engineer",
-        second: "Having almost 4 years of experience",
+        second: "4+ years of experience",
         third: "Passionate about to develop scalable applications",
         fourth: "Working in Guidewire",
         fifth: "Previously worked in Tekion,Coding Ninjas & Railyatri",
@@ -69,14 +69,7 @@ const worktimeline = [
         where: "Railyatri",
         location: "Noida",
         link: "https://www.railyatri.in/",
-        date: "Dec,2021 - Feb,2023",
-    },
-    {
-        jobtitle: "Software Developer Intern",
-        where: "Railyatri",
-        location: "Noida",
-        link: "https://www.railyatri.in/",
-        date: "Sep,2021 - Dec,2021",
+        date: "Sep,2021 - Feb,2023",
     }
 ];
 
@@ -140,12 +133,24 @@ const skills = [
     {
         name: "Git",
         value: 80,
+    },
+    {
+        name: "Kafka",
+        value: 70,
+    },
+    {
+        name:"ChatGPT",
+        value:90,
+    },
+    {
+        name: "Github-Copilot",
+        value: 90,
     }
 ];
 
 const services = [{
     title: "Backend Development",
-    description: "Currently Working as backend developer in Tekion, Bangalore, India. Apart from it I have worked in Coding Ninjas, Gurugram & Railyatri, Noida, India" ,
+    description: "Currently Working as backend developer in Guidewire, Bangalore, India. Apart from it I have worked in Coding Ninjas, Gurugram & Railyatri, Noida, India" ,
 },
     {
         title: "Mobile Apps",
@@ -255,8 +260,8 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "kgstrivers@gmail.com",
-    YOUR_FONE: "+918159924565",
+    YOUR_EMAIL: "kaushikghosh.sde@gmail.com",
+    YOUR_FONE: "+918159924565 / +919775288755",
     description: "If any Discussion or work related query, feel free to contact me",
     // creat an emailjs.com account
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
@@ -265,7 +270,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/kaushikpuka1998",
     facebook: "https://www.facebook.com/kaushik.ghosh.522/",
-    linkedin: "https://www.linkedin.com/in/kaushik-ghosh-886974109/",
+    linkedin: "https://www.linkedin.com/in/kgstrivers/",
     medium: "https://kgstrivers.medium.com/",
     leetcode: "https://www.leetcode.com/kgstrivers",
     codechef:"https://www.codechef.com/users/kaushik_199832",
