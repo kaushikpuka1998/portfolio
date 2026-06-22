@@ -121,7 +121,7 @@ section{padding:88px 0;position:relative}
   background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px;
   position:relative;overflow:hidden;transition:transform .3s,border-color .3s;
 }
-.card::after{content:"";position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(120deg,var(--accent),var(--accent-2));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity .3s}
+.card::after{pointer-events:none;content:"";position:absolute;inset:0;border-radius:18px;padding:1px;background:linear-gradient(120deg,var(--accent),var(--accent-2));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;opacity:0;transition:opacity .3s}
 .card:hover{transform:translateY(-5px)}
 .card:hover::after{opacity:1}
 .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:16px}
@@ -134,6 +134,9 @@ section{padding:88px 0;position:relative}
 .card-links a{font-family:var(--mono);font-size:13px;color:var(--accent);display:inline-flex;align-items:center;gap:6px}
 .card-links a:hover{text-decoration:underline}
 .card-links a.muted{color:var(--ink-dim)}
+.card-links a.muted:hover {
+  opacity: 1;
+}
 
 /* skills */
 .skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}

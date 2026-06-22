@@ -29,10 +29,22 @@ export function Experience() {
         <div className="xp">
           {experience.map((x, i) => (
             <div className="xp-item reveal" key={i}>
-              <div className="xp-when">{x.when}<span className="co">{x.company}</span></div>
+              <div className="xp-when">
+                {x.when}
+                <span className="co">{x.company}</span>
+                {x.link && (
+                    <a href={x.link} target="_blank" rel="noreferrer" className="xp-link" aria-label={`Visit ${x.company}`}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                        <polyline points="15 3 21 3 21 9" />
+                        <line x1="10" y1="14" x2="21" y2="3" />
+                      </svg>
+                    </a>
+                )}
+              </div>
               <div>
                 <div className="xp-role">{x.role}</div>
-                <div className="xp-loc">{x.location}</div>
+                <div className="xp-loc">{x.location}</div> 
                 <ul className="xp-points">
                   {x.points.map((p, j) => <li key={j}>{p}</li>)}
                 </ul>
@@ -55,17 +67,19 @@ export function Projects() {
           <p>Side projects spanning distributed systems, web apps and mobile.</p>
         </div>
         <div className="proj-grid">
-          {projects.map((p, i) => (
-            <div className="card reveal" key={i}>
-              <div className="card-top"><h3>{p.title}</h3><span className="card-ic">{p.badge}</span></div>
-              <p>{p.desc}</p>
-              <div className="tags">{p.tags.map((t, j) => <span className="tag" key={j}>{t}</span>)}</div>
-              <div className="card-links">
-                {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">▶ Demo</a>}
-                {p.code && <a href={p.code} target="_blank" rel="noreferrer" className={p.demo ? 'muted' : ''}>⌥ Code</a>}
-              </div>
-            </div>
-          ))}
+          {[...projects]
+              .sort((a, b) => (b.demo ? 1 : 0) - (a.demo ? 1 : 0))
+              .map((p, i) => (
+                  <div className="card reveal" key={i}>
+                    <div className="card-top"><h3>{p.title}</h3><span className="card-ic">{p.badge}</span></div>
+                    <p>{p.desc}</p>
+                    <div className="tags">{p.tags.map((t, j) => <span className="tag" key={j}>{t}</span>)}</div>
+                    <div className="card-links">
+                      {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">▶ Demo</a>}
+                      {p.code && <a href={p.code} target="_blank" rel="noreferrer" className={p.demo ? 'muted' : ''}>⌥ Code</a>}
+                    </div>
+                  </div>
+              ))}
         </div>
       </div>
     </section>
@@ -95,7 +109,7 @@ export function Content() {
               <h3>Competitive Programming</h3>
               <p>3-star on CodeChef and 600+ algorithmic problems on LeetCode — keeping data structures, graph algorithms and optimization sharp the hard way.</p>
             </div>
-            <a href={profile.medium} target="_blank" rel="noreferrer" className="btn btn-ghost" style={{ alignSelf: 'flex-start' }}>Read on Medium →</a>
+            <a href={profile.leetcode} target="_blank" rel="noreferrer" className="btn btn-ghost" style={{ alignSelf: 'flex-start' }}>See on Leetcode →</a>
           </div>
         </div>
       </div>

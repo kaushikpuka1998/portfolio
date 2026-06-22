@@ -6,7 +6,8 @@ export const profile = {
   email: 'kaushikghosh.sde@gmail.com',
   linkedin: 'https://www.linkedin.com/in/kgstrivers',
   github: 'https://github.com/kaushikpuka1998',
-  medium: 'https://medium.com/kgstrivers',
+  medium: 'https://kgstrivers.medium.com/',
+  leetcode: 'https://leetcode.com/kgstrivers'
 }
 
 export const metrics = [
@@ -20,45 +21,55 @@ export const experience = [
   {
     when: 'Mar 2025 — Present',
     company: 'Guidewire',
+    link: 'https://www.guidewire.com/',
     role: 'Software Engineer 2',
-    location: 'Bangalore · ClaimCenter & Contact Manager',
+    location: 'Bangalore,India · ClaimCenter & Contact Manager',
     points: [
       'Revamped ClaimCenter & Contact Manager in a 5-engineer team, cutting claim processing time by 20% via Workers Compensation API for the ANZ market.',
       'Built backend + React for Time-based Obligation, auto-restarting workflows on reopened claims and improving lifecycle compliance.',
       'Led code reviews, mentored 2 junior engineers, and leveraged Copilot, Claude & CodeLift to raise code quality.',
+      'Optimized Vulnerability, Policy Verification, Date of Injury & Time-based Obligation workflows across PolicyCenter and ClaimCenter, improving processing speed by 15%.',
+      'Fixed interpreter visibility issues and prevented duplicate selections in the Vulnerability module, validating changes with Cucumber UI automation and JUnit.',
+      'Strengthened engineering best practices, system stability, and compliance across ANZ insurance workflows.',
     ],
   },
   {
     when: 'Nov 2023 — Oct 2024',
     company: 'Tekion',
+    link: 'https://tekion.com/',
     role: 'Software Engineer 2 · Backend (Java)',
-    location: 'Bangalore · DRP Sales Cloud Platform & Analytics',
+    location: 'Bangalore,India · DRP Sales Cloud Platform & Analytics',
     points: [
-      'Enhanced Champion Details & integrated a Phase Gate API on the Sales Cloud platform.',
+      'Enhanced Champion Details & integrated a Phase Gate API on the DRP Sales Cloud Platform & Analytics team.',
+      'Cut API latency from 712ms to 12ms by implementing cursor-based pagination, dramatically improving response times.',
       'Enforced 80% unit-test coverage for Deal Compare & Onboarding using JUnit5, Mockito & SonarQube.',
-      'Built Elasticsearch reporting for 5 KPIs, reducing reporting time by 60%.',
+      'Built Elasticsearch reporting and dashboards for 5 KPIs, automating report generation and reducing reporting time by 60%.',
+      'Ensured high-quality, maintainable code through thorough peer reviews as a Backend Engineer (Java).',
     ],
   },
   {
     when: 'Feb 2023 — Aug 2023',
     company: 'Coding Ninjas',
+    link: 'https://tekion.com/',
     role: 'SDE 1 · Full-stack (RoR)',
-    location: 'Gurugram · Studio team',
+    location: 'Gurugram,India · Studio team',
     points: [
-      'Shipped the Exit & Resume Leaderboard, boosting engagement 40%.',
+      'Shipped the Exit & Resume Leaderboard as a full-stack developer (RoR) on the Studio team, boosting engagement 40%.',
       'Built Articles & Discussions section — 50% lift in profile section usage.',
-      'Redesigned access flow & emailer system, +25% user satisfaction.',
+      'Redesigned access flow UI & built an emailer system for exited users, +25% user satisfaction.',
+      'Partnered with Product Management & Designers to drive product development.',
     ],
   },
   {
     when: 'Sep 2021 — Feb 2023',
     company: 'RailYatri',
+    link: 'https://www.railyatri.in/',
     role: 'Software Engineer',
-    location: 'Noida · Train-Ticket System',
+    location: 'Noida,India · Train-Ticket System',
     points: [
-      'Streamlined the Train-Ticket backend in Ruby on Rails (TDD/Scrum), cutting booking time 35%.',
-      'Built Review Component & Tatkal Refund Calculator — complaints down 50%.',
-      'Added automated cancellation emails, lifting retention by 15%.',
+      'Streamlined the Train-Ticket System backend in Ruby on Rails & JavaScript (TDD/Scrum), optimizing API calls and cutting booking time 35%.',
+      'Built the Review Component Page & Tatkal Refund Calculator — customer complaints down 50%.',
+      'Added an automated email system for free & partial cancellations, lifting retention by 15%.',
     ],
   },
 ]
@@ -69,7 +80,15 @@ export const projects = [
     badge: 'Spring Boot',
     desc: 'Indian Railways booking engine — PNR-based seat allocation, cyclic berth-type assignment, Redis DTO caching and typed exception handling via @RestControllerAdvice.',
     tags: ['Java', 'Spring Boot', 'JPA / Hibernate', 'Redis', 'PostgreSQL'],
-    code: 'https://github.com/kaushikpuka1998',
+    code: 'https://github.com/kaushikpuka1998/Trainticker',
+    demo: '',
+  },
+  {
+    title: 'Payc',
+    badge: 'REST · Springboot',
+    desc: 'A Spring Boot payment service that processes transactions & publishes each outcome to Kafka, routing successes and failures to separate topics with dedicated consumers. Demonstrates the synchronous-call, asynchronous-fan-out pattern behind real payment systems',
+    tags: ['Java', 'Springboot', 'PostgreSQL', 'Kafka', 'JWT'],
+    code: '  https://github.com/kaushikpuka1998/PaymentApplication',
     demo: '',
   },
   {
@@ -77,7 +96,7 @@ export const projects = [
     badge: 'REST · Node.js',
     desc: 'Cloud-native REST API on AWS RDS MySQL with JWT auth, BcryptJS hashing and email-presence validation — built to showcase production-style API design.',
     tags: ['Node.js', 'Express', 'AWS RDS', 'MySQL', 'JWT'],
-    code: 'https://github.com/kaushikpuka1998',
+    code: 'https://github.com/kaushikpuka1998/NodeAPI',
     demo: '',
   },
   {
@@ -85,8 +104,8 @@ export const projects = [
     badge: 'Ruby on Rails',
     desc: 'Microservice library system on RoR MVC with a separated REST API consumed via RestClient. Redis-backed CRUD boosting DB performance 40%.',
     tags: ['Ruby on Rails', 'MySQL', 'Redis', 'Devise'],
-    code: 'https://github.com/kaushikpuka1998',
-    demo: '',
+    code: 'https://github.com/kaushikpuka1998/library_mng_ruby',
+    demo: 'https://github.com/kaushikpuka1998/library_mng_ruby',
   },
   {
     title: 'Food Grazo',
@@ -94,8 +113,16 @@ export const projects = [
     desc: 'Native Android food-ordering app with Facebook / Gmail / Phone auth and GPay + Razorpay payments. Firebase data store, UI designed in Adobe XD.',
     tags: ['Java', 'Firebase', 'Retrofit2', 'AWS S3', 'Razorpay'],
     code: 'https://github.com/kaushikpuka1998',
-    demo: '',
+    demo: 'https://www.youtube.com/watch?v=wQ-3LnS4eiQ',
   },
+  {
+    title: 'Covigo',
+    badge: 'Flutter',
+    desc: 'Cross-platform COVID-19 tracker built in Flutter — live case stats with pie-chart visualizations, country-wise data over HTTP APIs, and in-app webview resources with offline connectivity handling.',
+    tags: ['Flutter', 'Dart', 'REST API', 'Android/iOS'],
+    code: 'https://github.com/kaushikpuka1998/Covigo',
+    demo: 'https://www.linkedin.com/feed/update/urn:li:activity:6807305429664849920/',
+  }
 ]
 
 export const skills = [
