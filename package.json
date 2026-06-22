@@ -1,49 +1,23 @@
 {
-    "homepage": "https://kaushikpuka1998.github.io/portfolio/",
-    "name": "react-portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "bootstrap": "^5.2.3",
-        "emailjs-com": "^3.2.0",
-        "react": "^18.2.0",
-        "react-bootstrap": "^2.7.0",
-        "react-dom": "^18.2.0",
-        "react-helmet-async": "^1.0.7",
-        "react-icons": "^4.1.0",
-        "react-router-dom": "^6.6.2",
-        "react-scripts": "^5.0.1",
-        "react-transition-group": "^4.4.2",
-        "typewriter-effect": "^2.18.2",
-        "web-vitals": "^3.1.1"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "gh-pages": "^6.1.1"
-    }
+  "name": "kaushik-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.1.1",
+    "vite": "^8.0.16"
+  },
+  "homepage": "https://kaushikpuka1998.github.io/portfolio/"
 }
