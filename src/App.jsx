@@ -1,7 +1,7 @@
 import useReveal from './useReveal'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import { Metrics, Experience, Projects, Content, Skills, Contact } from './components/Sections'
+// import Hero from './components/Hero'
+import { Hero, Metrics, Experience, Projects, Content, Skills, Contact } from './components/Sections'
 import { profile } from './data'
 
 export default function App() {

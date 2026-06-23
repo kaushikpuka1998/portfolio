@@ -183,3 +183,77 @@ footer .accent{color:var(--accent)}
   *{animation:none!important;transition:none!important}
   .reveal{opacity:1;transform:none}
 }
+
+/* full-bleed photo hero */
+.hero-full{
+  position:relative;
+  min-height:calc(100vh - 80px);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  padding:0;
+}
+.hero-bg{
+  position:absolute;
+  inset:0;
+  z-index:-1;
+}
+.hero-bg img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 20%;
+}
+/* dim the photo so text stays readable */
+.hero-tint{
+  position:absolute;inset:0;
+  background:var(--bg);
+  opacity:.45;
+}
+/* fade top and bottom into the page background (the souravrax effect) */
+.hero-fade-top{
+  position:absolute;inset:0;
+  background:linear-gradient(to bottom,var(--bg),transparent 45%);
+}
+.hero-fade-bottom{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,var(--bg),transparent 50%);
+}
+
+.hero-center{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+.hero-full h1{
+  font-family:var(--display);
+  font-size:clamp(48px,11vw,120px);
+  line-height:1;font-weight:700;letter-spacing:-.03em;
+  margin-bottom:10px;
+}
+.hero-full .grad{
+  background:linear-gradient(100deg,var(--accent),var(--accent-2));
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-title{
+  font-family:var(--display);
+  font-size:clamp(26px,4vw,48px);
+  font-weight:700;
+}
+.hero-title.sm{font-size:clamp(20px,3vw,14px);margin-top:8px}
+.hero-by{
+  font-family:var(--mono);
+  font-size:13px;color:var(--ink-dim);
+  text-transform:lowercase;
+}
+.hero-work{font-size:17px;color:var(--ink-dim);margin-top:14px}
+.hero-at{color:var(--accent);font-weight:600}
+.hero-at:hover{text-decoration:underline}
+.hero-full .hero-actions{margin-top:30px;justify-content:center}
+
+@media(max-width:860px){
+  .hero-bg img{object-position:center 15%}
+}
