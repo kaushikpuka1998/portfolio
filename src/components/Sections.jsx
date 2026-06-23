@@ -12,7 +12,7 @@ export function Hero() {
         <header className="hero-full">
             {/* background photo + gradient overlays */}
             <div className="hero-bg">
-                <img src="public/me1.JPEG" alt="Kaushik Ghosh"/>
+                <img src="me1.JPEG" alt="Kaushik Ghosh"/>
                 <div className="hero-tint"/>
                 <div className="hero-fade-top"/>
                 <div className="hero-fade-bottom"/>
