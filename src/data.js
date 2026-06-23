@@ -76,6 +76,14 @@ export const experience = [
 
 export const projects = [
     {
+        title: 'Meetly',
+        badge: 'REST · Node.js, React',
+        desc: 'Developed a real-time meeting and call signaling system over WebSockets, deployed on a self-managed VPS with UDP networking, and integrated it with the Meetly Scheduler to enable seamless live sessions from scheduled meeting links',
+        tags: ['NodeJS', 'MongoDB', 'Livekit', 'Redis', 'PostgreSQL'],
+        code: '',
+        demo: 'https://frontend-production-8728.up.railway.app/',
+    },
+    {
         title: 'TrainTicker',
         badge: 'Spring Boot',
         desc: 'Indian Railways booking engine — PNR-based seat allocation, cyclic berth-type assignment, Redis DTO caching and typed exception handling via @RestControllerAdvice.',
@@ -139,6 +147,6 @@ export const skills = [
 ]
 
 export const marqueeWords = [
-    'Java', 'NodeJS', 'React', 'Spring Boot', 'Kafka', 'Microservices', 'Elasticsearch',
-    'Redis', 'System Design', 'Distributed Systems', 'PostgreSQL', 'AWS',
+  'Java', 'Spring Boot', 'Kafka', 'Microservices', 'Elasticsearch',
+  'Redis', 'System Design', 'Distributed Systems', 'PostgreSQL', 'AWS',
 ]
