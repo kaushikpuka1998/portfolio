@@ -68,10 +68,9 @@ export function Metrics() {
                         </div>
                     ))}
                 </div>
-            </div>
-
-            <div className="marquee">
-                <div className="marquee-track">{marquee}</div>
+                <div className="marquee">
+                    <div className="marquee-track">{marquee}</div>
+                </div>
             </div>
         </section>
     )
