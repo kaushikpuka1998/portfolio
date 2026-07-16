@@ -22,7 +22,7 @@ export const experience = [
         when: 'Mar 2025 — Present',
         company: 'Guidewire',
         link: 'https://www.guidewire.com/',
-        role: 'Software Engineer 2',
+        role: 'Software Engineer 2 · Fullstack (Java & React)',
         location: 'Bangalore,India · ClaimCenter & Contact Manager',
         points: [
             'Revamped ClaimCenter & Contact Manager in a 5-engineer team, cutting claim processing time by 20% via Workers Compensation API for the ANZ market.',
@@ -34,7 +34,7 @@ export const experience = [
         ],
     },
     {
-        when: 'Nov 2023 — Oct 2024',
+        when: 'Nov 2023 — Mar 2025',
         company: 'Tekion',
         link: 'https://tekion.com/',
         role: 'Software Engineer 2 · Backend (Java)',
@@ -48,7 +48,7 @@ export const experience = [
         ],
     },
     {
-        when: 'Feb 2023 — Aug 2023',
+        when: 'Feb 2023 — Nov 2023',
         company: 'Coding Ninjas',
         link: 'https://www.codingninjas.com/',
         role: 'SDE 1 · Full-stack (RoR)',
