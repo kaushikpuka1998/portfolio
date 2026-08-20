@@ -7,7 +7,8 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/kgstrivers',
     github: 'https://github.com/kaushikpuka1998',
     medium: 'https://kgstrivers.medium.com/',
-    leetcode: 'https://leetcode.com/kgstrivers'
+    leetcode: 'https://leetcode.com/kgstrivers',
+    codechef: 'https://www.codechef.com/users/kaushik_199832'
 }
 
 export const metrics = [
@@ -82,6 +83,14 @@ export const projects = [
         tags: ['NodeJS', 'MongoDB', 'Livekit', 'Redis', 'PostgreSQL'],
         code: '',
         demo: 'https://frontend-production-8728.up.railway.app/',
+    },
+    {
+        title: 'LinkMint',
+        badge: 'REST · FastAPI, React',
+        desc: 'Self-hosted URL shortener with custom aliases, expiry dates, QR codes and per-link click analytics — Redis-backed link caching and per-IP rate limiting that degrade gracefully to Mongo-only when Redis is down.',
+        tags: ['FastAPI', 'Python', 'MongoDB', 'Redis', 'React'],
+        code: 'https://github.com/kaushikpuka1998/LinkMint',
+        demo: '',
     },
     {
         title: 'TrainTicker',

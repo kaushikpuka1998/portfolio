@@ -20,7 +20,7 @@ export function Hero() {
 
             {/* centered text */}
             <div className="wrap hero-center">
-                <div className="hero-eyebrow">// backend engineer</div>
+                <div className="hero-eyebrow">// Fullstack engineer</div>
                 <h1>Kaushik <span className="grad">Ghosh</span></h1>
                 <h2 className="hero-title">Software Engineer</h2>
                 <p className="hero-by">by profession</p>
@@ -40,6 +40,27 @@ export function Hero() {
                         className="btn btn-ghost"
                         onClick={onResume}
                     >📄 Resume</a>
+                    {profile.leetcode && (
+                        <a href={profile.leetcode} target="_blank" rel="noreferrer" className="btn btn-ghost">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                <path d="M13.5 3 6.6 10a3 3 0 0 0 0 4.2l4 4a3 3 0 0 0 4.2 0l2.2-2.2"/>
+                                <path d="M10.8 12H20"/>
+                            </svg>
+                            LeetCode
+                        </a>
+                    )}
+                    {profile.codechef && (
+                        <a href={profile.codechef} target="_blank" rel="noreferrer" className="btn btn-ghost">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
+                                 strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                <path d="M6 21h12"/>
+                                <path d="M4 17h16l-1-6H5l-1 6Z"/>
+                                <path d="M9 7c0-1.5 1.3-2 1.3-3.2M14.7 7c0-1.5 1.3-2 1.3-3.2"/>
+                            </svg>
+                            CodeChef
+                        </a>
+                    )}
                 </div>
             </div>
         </header>
