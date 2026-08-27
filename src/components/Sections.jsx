@@ -153,10 +153,14 @@ export function Projects() {
                     {[...projects]
                         .sort((a, b) => (b.demo ? 1 : 0) - (a.demo ? 1 : 0))
                         .map((p, i) => (
-                            <div className="card reveal" key={i}>
-                                <div className="card-top"><h3>{p.title}</h3><span className="card-ic">{p.badge}</span>
+                            <div className={'card reveal' + (p.product ? ' card-product' : '')} key={i}>
+                                <div className="card-top">
+                                    <h3>{p.title}{p.product && <span className="chip">PRODUCT</span>}</h3>
+                                    <span className="card-ic">{p.badge}</span>
                                 </div>
                                 <p>{p.desc}</p>
+                                {p.highlights &&
+                                    <ul className="card-hl">{p.highlights.map((h, j) => <li key={j}>{h}</li>)}</ul>}
                                 <div className="tags">{p.tags.map((t, j) => <span className="tag"
                                                                                   key={j}>{t}</span>)}</div>
                                 <div className="card-links">

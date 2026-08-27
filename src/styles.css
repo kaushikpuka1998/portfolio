@@ -128,6 +128,11 @@ section{padding:88px 0;position:relative}
 .card h3{font-family:var(--display);font-size:22px;font-weight:600}
 .card-ic{font-family:var(--mono);font-size:13px;color:var(--ink-faint)}
 .card p{color:var(--ink-dim);font-size:15px;margin-bottom:18px}
+.card h3 .chip{font-family:var(--mono);font-size:10px;letter-spacing:.08em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:2px 8px;margin-left:10px;vertical-align:middle}
+.card-product{border-color:color-mix(in srgb,var(--accent) 35%,var(--line))}
+.card-hl{list-style:none;margin:0 0 20px;padding:0;display:grid;gap:9px}
+.card-hl li{position:relative;padding-left:18px;color:var(--ink-dim);font-size:14px;line-height:1.55}
+.card-hl li::before{content:"▸";position:absolute;left:0;color:var(--accent)}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
 .tag{font-family:var(--mono);font-size:12px;color:var(--ink-dim);border:1px solid var(--line);padding:4px 10px;border-radius:6px}
 .card-links{display:flex;gap:16px;border-top:1px solid var(--line);padding-top:16px}

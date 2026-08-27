@@ -77,12 +77,34 @@ export const experience = [
 
 export const projects = [
     {
+        title: 'Interview Reader',
+        badge: 'Product · Live',
+        product: true,
+        desc: 'A live reading app for Java, React, Node, SQL, HLD, Microservices, Kafka and Design Pattern interview questions — every answer deep-linkable, searchable and tracked.',
+        highlights: [
+            'Spring Boot 3.2 / Java 21 API over PostgreSQL 16 — server-side pagination, full-text search, filters by tech, category, difficulty and read status',
+            'Redis read-through cache (@Cacheable, 10-min TTL) with a fail-open error handler — Postgres hit only on a miss, never a 500 when Redis is down',
+            'Slug URLs per question, infinite scroll, Markdown answers with syntax highlighting, localStorage progress and dark mode',
+        ],
+        tags: ['Java 21', 'Spring Boot', 'PostgreSQL', 'Redis', 'React', 'Vite', 'Tailwind'],
+        code: 'https://github.com/kaushikpuka1998/Java-React-Interview-dashboard',
+        demo: 'https://interviewreader.up.railway.app/',
+    },
+    {
         title: 'Meetly',
-        badge: 'REST · Node.js, React',
-        desc: 'Developed a real-time meeting and call signaling system over WebSockets, deployed on a self-managed VPS with UDP networking, and integrated it with the Meetly Scheduler to enable seamless live sessions from scheduled meeting links',
-        tags: ['NodeJS', 'MongoDB', 'Livekit', 'Redis', 'PostgreSQL'],
+        badge: 'Product · meetly.co.in',
+        product: true,
+        desc: 'A paid meeting platform running at meetly.co.in — scheduling, built-in video calls, Calendly-style booking pages and subscriptions in one product.',
+        highlights: [
+            'Node/Express + MongoDB API and a React 19 SPA — recurring meetings, email invites with .ics, RSVP, and BullMQ/Redis reminder jobs in the organizer\'s timezone',
+            'Self-hosted LiveKit on a VPS with UDP networking — per-meeting rooms, scoped tokens, in-browser MP4 recording, live captions, reactions and screen share',
+            'Public /book/:username pages with custom branding and slots filtered against real Google Calendar free/busy over OAuth',
+            'Freemium billing — Razorpay subscriptions (INR) + Lemon Squeezy (international), admin kill-switch, usage limits and revenue/traffic dashboards',
+            'httpOnly-cookie + CSRF auth with Bearer fallback for mobile, rate limiting, and graceful degradation when a provider key is missing',
+        ],
+        tags: ['NodeJS', 'Express', 'React 19', 'MongoDB', 'LiveKit', 'Redis / BullMQ', 'Razorpay'],
         code: '',
-        demo: 'https://frontend-production-8728.up.railway.app/',
+        demo: 'https://www.meetly.co.in',
     },
     {
         title: 'LinkMint',
