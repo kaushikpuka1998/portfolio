@@ -108,11 +108,12 @@ export const projects = [
     },
     {
         title: 'LinkMint',
-        badge: 'REST · FastAPI, React',
+        badge: 'REST · FastAPI, React, MongoDB',
+        product: true,
         desc: 'Self-hosted URL shortener with custom aliases, expiry dates, QR codes and per-link click analytics — Redis-backed link caching and per-IP rate limiting that degrade gracefully to Mongo-only when Redis is down.',
         tags: ['FastAPI', 'Python', 'MongoDB', 'Redis', 'React'],
         code: 'https://github.com/kaushikpuka1998/LinkMint',
-        demo: '',
+        demo: 'https://linkmint.up.railway.app/',
     },
     {
         title: 'TrainTicker',
